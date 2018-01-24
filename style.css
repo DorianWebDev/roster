@@ -1,0 +1,122 @@
+/*CSS*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+section{
+    position: relative;
+    padding: 10px;
+    margin: 4px 0 0 10px;
+    border-top: 2px solid black;
+    border-left: 1px solid grey;
+}
+
+.shrinked{
+    height: 30px;
+    overflow: hidden;
+}
+
+h1{
+    margin: 10px 0 0 0;
+}
+
+h2{
+    margin: 5px 0 5px 20px;
+    height: 30px;
+    cursor: pointer;
+}
+
+button{
+    height: 30px;
+    font-size: 1.2em;
+    border: 0;
+    border-top: 2px solid black;
+    border-left: 1px solid grey;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table#rosterMaker, table#rosterPrint{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+table#rosterMaker tr, table#rosterPrint tr{
+    border-bottom: 1px solid grey;
+}
+table#rosterMaker tr:nth-child(even){
+    background: #CCC
+}
+table#rosterMaker tr:nth-child(odd){
+    background: #FFF
+}
+
+table#rosterMaker td, , table#rosterPrint td{
+    width: 11%;
+    border: 0;
+}
+table#rosterMaker td input, table#rosterPrint td input{
+    width: 90%;
+}
+
+table#rosterMaker tr:last-child button{
+    width: 85%;
+}
+
+input{
+    text-align: center;
+    height: 30px;
+}
+
+select{
+    height: 25px;
+    width: 70px;
+    text-align: center;
+    border-radius: 0;
+    border: 0;
+    border-top: 1px solid black;
+    border-left: 1px solid grey;
+    margin-bottom: 2px;
+}
+
+table#rosterPrint tr:first-child{
+    background-color: darkcyan;
+    color: white;
+    height: 30px;
+}
+table#rosterPrint tr td:first-child{
+    background-color: green;
+    color: white;
+}
+table#rosterPrint tr td:nth-child(2){
+    background-color: orange;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer img{
+    margin-bottom: -5px;
+}
